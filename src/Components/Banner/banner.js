@@ -1,11 +1,14 @@
 import React from 'react'
+import { sliderData } from './sliderdata'
 
-function Banner() {
+const Banner = () => {
     return (
-        <div>
-
-        </div>
-    )
-}
+        <>
+            {sliderData.map((slide, index) => {
+                return <img src={slide.image} alt='travel image' />;
+            })}
+        </>
+    );
+};
 
 export default Banner
