@@ -4,11 +4,12 @@ import { FaArrowAltCirlceRight, FaArrowAltCirlceLeft } from 'react-icons/fa'
 
 const Banner = () => {
     return (
-        <>
+        <section className="slider">
+            <FaArrowAltCirlceLeft className="leftArrow" onClick={prevslide} />
             {sliderData.map((slide, index) => {
                 return <img src={slide.image} alt='travel image' />;
             })}
-        </>
+        </section>
     );
 };
 
