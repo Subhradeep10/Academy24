@@ -5,7 +5,7 @@ import { Navbar, Container, Nav, } from 'react-bootstrap'
 function Header() {
     return (
         < >
-            <Navbar bg="warning" variant="dark">
+            <Navbar bg="warning" variant="dark" width="100%">
                 <Container className='header'>
                     <Navbar.Brand href="#home" className="links">Academy24</Navbar.Brand>
                     <Nav className="justify-content-end">
