@@ -25,7 +25,12 @@ const Banner = ({ slide }) => {
             <FaArrowAltCircleLeft className="leftArrow" onClick={prevSlide} />
             <FaArrowAltCircleRight className="rightArrow" onClick={nextSlide} />
             {sliderData.map((slide, index) => {
-                return <img src={slide.image} alt='travel image' className="image" />;
+                return (
+                    <div>
+                        <img src={slide.image} alt='travel image' className="image" />;
+                    </div>
+
+                )
             })}
         </section>
     );
