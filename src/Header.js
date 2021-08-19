@@ -4,18 +4,17 @@ import { Navbar, Container, Nav, } from 'react-bootstrap'
 
 function Header() {
     return (
-        <>
+        < >
             <Navbar bg="warning" variant="dark">
-                <Container>
-                    <Navbar.Brand href="#home">Academy24</Navbar.Brand>
+                <Container className='header'>
+                    <Navbar.Brand href="#home" className="links">Academy24</Navbar.Brand>
                     <Nav className="justify-content-end">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        <Nav.Link href="#home" className="links">Home</Nav.Link>
+                        <Nav.Link href="#features" className="links">Features</Nav.Link>
+                        <Nav.Link href="#pricing" className="links">Pricing</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
-            <br />
 
         </>
     )

@@ -1,0 +1,14 @@
+.header{
+    
+    font-size: 20px;
+}
+.links:hover{
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    box-sizing: inherit;
+}
+.links{
+    margin: 15px;
+    font-size: 20px;
+}
