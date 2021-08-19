@@ -1,5 +1,6 @@
 import React from 'react'
 import { sliderData } from './sliderdata'
+import { FaArrowAltCirlceRight, FaArrowAltCirlceLeft } from 'react-icons/fa'
 
 const Banner = () => {
     return (
