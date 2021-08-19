@@ -1,7 +1,7 @@
-.wdt{  
-    width: 37%  !important;  
-}  
-.img  
-{  
-    height: 300px !important;  
-} 
+.slider{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
