@@ -26,3 +26,35 @@ You can refer to the following articles on **_basics of Git and Github and also 
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
 
+<h2 align=center> Project Admin ❤️ </h2>
+
+
+  <div align="center">
+<table>
+<tr>
+
+<td align="center"><a href="https://github.com/Subhradeep10"><img src="https://avatars.githubusercontent.com/u/70656957?v=4" width=125px height=125px /></a><h3 style="color:white;">Subhradeep Samanta</h3>
+
+     
+</tr>
+</table>
+<br>
+
+<h2 align=center> Contruibuters 🚀</h2>
+
+
+  <div align="center">
+
+<table border = "solid black">
+	<tr>
+		<td>
+			<a href="https://github.com/Subhradeep10/Academy24/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Subhradeep10/Academy24" />
+</a>
+</a>
+		</td>
+	</tr>
+</table>
+
+     
+<br>
