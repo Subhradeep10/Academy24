@@ -1,14 +1,12 @@
-
 import './App.css';
-import Banner from './Components/Banner/banner';
-import { sliderData } from './Components/Banner/sliderdata';
-import Header from './Header';
+import Home from './Components/Home/Home';
+import ResponsiveAppBar from './Components/Navbar/NavBar';
 
 function App() {
   return (
     <>
-      <Header />
-      <Banner slide={sliderData} />
+      <ResponsiveAppBar />
+      <Home />
     </>
   );
 }
