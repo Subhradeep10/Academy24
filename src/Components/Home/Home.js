@@ -1,5 +1,8 @@
 import React from 'react'
 import './Home.css'
+import WebDev from '../../Images/WebDev.png'
+import Campus_Ambassador from '../../Images/CampusAmbassador.png'
+import AppDev from '../../Images/App Development.png'
 
 const Home = () => {
     return (
@@ -20,6 +23,33 @@ const Home = () => {
                 </div>
                 <div className="open_source_content">
                     A Place where all the curated collections of OpenSouce Events/Programms and Details are organised in a serial manner
+                </div>
+            </div>
+            <div className="open_source">
+                <div className="open_source_image">
+
+                    <img src={WebDev} alt="" srcset="" className='open_source_image' />
+                </div>
+                <div className="open_source_content">
+                    A Place where all the curated collections of Web Devlopment and Details are organised in a serial manner
+                </div>
+            </div>
+            <div className="open_source">
+                <div className="open_source_image">
+
+                    <img src={Campus_Ambassador} alt="" srcset="" className='open_source_image' />
+                </div>
+                <div className="open_source_content">
+                    A Place where all the curated collections of Web Devlopment and Details are organised in a serial manner
+                </div>
+            </div>
+            <div className="open_source">
+                <div className="open_source_image">
+
+                    <img src={AppDev} alt="" srcset="" className='open_source_image' />
+                </div>
+                <div className="open_source_content">
+                    A Place where all the curated collections of Web Devlopment and Details are organised in a serial manner
                 </div>
             </div>
         </>
