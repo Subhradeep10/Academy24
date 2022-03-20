@@ -7,7 +7,7 @@ import AppDev from '../../Images/App Development.png'
 const Home = () => {
     return (
         <>
-            <div className="container">
+            <div className="homecontainer">
                 <div className="container_content">
                     <h1>Welcome to Academy24</h1>
                     <p>A Place where all the curated collections of resources and Details are organised in a serial manner </p>
